@@ -1,0 +1,12 @@
+[user]
+	email = mikael@tranbom.io
+	name = Mikael Tranbom
+
+[diff]
+    tool = vimdiff
+
+[difftool]
+    prompt = false
+
+[alias]
+    d = difftool

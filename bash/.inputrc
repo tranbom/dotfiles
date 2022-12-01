@@ -1,0 +1,18 @@
+"\e[A": history-search-backward
+"\e[B": history-search-forward
+
+# vi-mode 221116
+set editing-mode vi
+
+# vi settings
+$if mode=vi
+    # normal mode
+    set keymap vi-command
+    "j": backward-char
+    "k": next-history
+    "l": previous-history
+    "ö": forward-char
+    # insert mode
+    set keymap vi-insert
+    "hh": vi-movement-mode # remap escape
+$endif

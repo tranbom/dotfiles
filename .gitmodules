@@ -1,0 +1,3 @@
+[submodule "vim-dotfiles"]
+	path = vim-dotfiles
+	url = git@gitlab.com:tranbom/vim-dotfiles.git
